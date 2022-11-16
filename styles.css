@@ -5,3 +5,16 @@ body {
 h1 {
     font-weight: 600;
 }
+
+a, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a0b4f2;
+}
+
+footer {
+    min-height: 100px;
+}
