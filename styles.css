@@ -10,6 +10,12 @@ h1 {
     font-weight: 600;
 }
 
+/* to justify text */
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 a, a:visited {
     color: white;
     text-decoration: none;
