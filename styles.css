@@ -25,6 +25,11 @@ a:hover {
     color: #a0b4f2;
 }
 
+time {
+    font-size: 15px;
+    color: #f2b90f;
+}
+
 footer {
     min-height: 100px;
 }
