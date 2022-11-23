@@ -33,3 +33,13 @@ time {
 footer {
     min-height: 100px;
 }
+
+/* to prevent wide lines of text at md viewport (768-991) & xl */
+.stepstext {
+    max-width: 60ch;
+}
+
+.oddstep {
+    background-color: black;
+    color: white;
+}
