@@ -32,7 +32,10 @@
                         console.log('SUCCESS!');
                     }, function(error) {
                         console.log('FAILED...', error);
-                    });
+                    })
+                    .then(function() {
+                        document.getElementById("contact-form").reset();
+                    })
             });
         }
     </script>
@@ -104,7 +107,7 @@
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="workshops.html">Workshops</a>
+                  <a class="nav-link" href="workshops.html">Workshops</a>
                 </li>
                 <!--
               <li class="nav-item">
@@ -164,7 +167,7 @@
               type="button"
               class="btn btn-dark"
               data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
+              data-bs-target="#enrollModal"
             >
               Enroll Today
             </button>
@@ -175,21 +178,17 @@
         <div class="container">
         <div class="row">
           <div class="col">
-           
-
-
-            
             <div
               class="modal fade"
-              id="exampleModal"
+              id="enrollModal"
               tabindex="-1"
-              aria-labelledby="exampleModalLabel"
+              aria-labelledby="enrollModalLabel"
               aria-hidden="true"
             >
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">
+                    <h5 class="modal-title" id="enrollModalLabel">
                       Workshop Enrollment Request
                     </h5>
                     <button
@@ -220,20 +219,20 @@
                       <div class="pb-3">
                         <p>Select a Workshop</p>
                         <div class="form-check">
-                          <input class="form-check-input" name="workshop1" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                          <label class="form-check-label" for="flexRadioDefault1">
+                          <input class="form-check-input" name="workshop1" type="checkbox" id="workshop1">
+                          <label class="form-check-label" for="workshop1">
                             Drawing with Children
                           </label>
                         </div>
                         <div class="form-check">
-                          <input class="form-check-input" name="workshop2" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                          <label class="form-check-label" for="flexRadioDefault2">
+                          <input class="form-check-input" name="workshop2" type="checkbox" id="workshop2">
+                          <label class="form-check-label" for="workshop2">
                             Digital Drawing Basics
                           </label>
                         </div>
                         <div class="form-check">
-                          <input class="form-check-input" name="workshop3" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                          <label class="form-check-label" for="flexRadioDefault2">
+                          <input class="form-check-input" name="workshop3" type="checkbox" id="workshop3">
+                          <label class="form-check-label" for="workshop3">
                             Storytelling & Phonics
                           </label>
                         </div>

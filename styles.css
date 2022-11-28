@@ -16,6 +16,11 @@ p {
     text-justify: inter-word;
 }
 
+/* center card-body text */
+.card-body p {
+    text-align: center;
+}
+
 a, a:visited {
     color: white;
     text-decoration: none;
@@ -23,6 +28,11 @@ a, a:visited {
 
 a:hover {
     color: #a0b4f2;
+}
+
+.active{
+    background-color: white !important;
+    color: black !important;
 }
 
 /* Workshops Page */
