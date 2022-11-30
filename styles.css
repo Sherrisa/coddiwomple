@@ -21,6 +21,10 @@ p {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* style the icons in the footer */
 footer a, footer a:visited {
     text-decoration: none;
@@ -31,6 +35,7 @@ footer a:hover {
     color: #a0b4f2;
 }
 
+/* to remove the link look from workshop titles */
 .workshops a {
     text-decoration: none;
     color: black;
