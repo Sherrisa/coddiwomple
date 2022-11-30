@@ -21,13 +21,19 @@ p {
     text-align: center;
 }
 
-a, a:visited {
-    color: white;
+/* style the icons in the footer */
+footer a, footer a:visited {
     text-decoration: none;
+    color: white;
 }
 
-a:hover {
+footer a:hover {
     color: #a0b4f2;
+}
+
+.workshops a {
+    text-decoration: none;
+    color: black;
 }
 
 .active{
@@ -38,7 +44,8 @@ a:hover {
 /* Workshops Page */
 time {
     font-size: 15px;
-    color: #d94141;
+    font-weight: 600;
+    color: #a0b4f2;
 }
 
 footer {
